@@ -17,10 +17,10 @@
 | --- | --- | --- | --- |
 | 1 | Обзор Google Cloud и исследование основных сервисов | [lab1_report.md](lab1/lab1_report.md) | Защищена |
 | 2 | Исследование Cloud Run | [lab2_report.md](lab2/lab2_report.md) | Отчёт подготовлен; сервис удалён |
-| 3 | Исследование Cloud Storage | [lab3_report.md](lab3/lab3_report.md) | Не начата |
+| 3 | Исследование Cloud Storage | [lab3_report.md](lab3/lab3_report.md) | Отчёт подготовлен; бакет удалён |
 | 4 | Разработка инфраструктуры MVP AI приложения | [lab4_report.md](lab4/lab4_report.md) | Не начата |
 
-Каталоги подготовлены для четырёх работ, перечисленных в [основном списке лабораторных курса](https://github.com/ex-itmo-ict-faculty/cloud-platforms-as-the-basis-of-technology-entrepreneurship/blob/main/docs/education/labs.md). Файлы ЛР3–ЛР4 содержат заготовки шапок для последующего заполнения.
+Каталоги подготовлены для четырёх работ, перечисленных в [основном списке лабораторных курса](https://github.com/ex-itmo-ict-faculty/cloud-platforms-as-the-basis-of-technology-entrepreneurship/blob/main/docs/education/labs.md). Файл ЛР4 содержит заготовку шапки для последующего заполнения.
 
 ## Структура репозитория
 
@@ -36,6 +36,7 @@
 │   ├── images/                 # Скриншоты выполнения ЛР2
 │   └── lab2_report.md
 ├── lab3/
+│   ├── images/                 # Скриншоты выполнения ЛР3
 │   └── lab3_report.md
 └── lab4/
     └── lab4_report.md
@@ -47,6 +48,8 @@
 
 В ЛР2 стандартный контейнер Hello продолжил работать после смены порта с `8080` на `8090`. Проверены переключение трафика между ревизиями с тегами `ver1` и `ver2` и распределение 50/50. При повторных сериях запросов обнаружены ответы `429`; их анализ и ограничения диагностики включены в отчёт. Сервис удалён после подготовки отчёта.
 
+В ЛР3 создан собственный бакет Cloud Storage, загружены четыре изображения и выполнен перенос в папку `images`. После предоставления публичного чтения изображение проверено в режиме инкогнито. По завершении работы изображения и бакет удалены.
+
 Отчёты оформляются в Markdown, изображения хранятся рядом с соответствующей работой. Поле `Date of create` обозначает дату начала работы, а `Date of finished` заполняется датой защиты перед преподавателем.
 
 ## Материалы курса
@@ -55,6 +58,7 @@
 - [Правила оформления и защиты отчётов](https://github.com/ex-itmo-ict-faculty/cloud-platforms-as-the-basis-of-technology-entrepreneurship/blob/main/docs/education/labs2023-2024/reportdesign.md).
 - [Задание ЛР1](https://github.com/ex-itmo-ict-faculty/cloud-platforms-as-the-basis-of-technology-entrepreneurship/blob/main/docs/education/labs2023-2024/lab1/lab1.md).
 - [Задание ЛР2](https://github.com/ex-itmo-ict-faculty/cloud-platforms-as-the-basis-of-technology-entrepreneurship/blob/main/docs/education/labs2023-2024/lab2/lab2.md).
+- [Задание ЛР3](https://github.com/ex-itmo-ict-faculty/cloud-platforms-as-the-basis-of-technology-entrepreneurship/blob/main/docs/education/labs2023-2024/lab3/lab3.md).
 
 ## Лицензия
 
